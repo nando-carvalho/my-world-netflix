@@ -17,6 +17,7 @@
 body {
     background: var(--preta);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
 }
 
 header .container {
@@ -41,4 +42,52 @@ header nav a{
 
 header nav a:hover{
     color: #fff;
+}
+
+/* filme principal */
+
+.filme-principal {
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)100%), url('/assets/img/libertadoresGabigol.jpg');
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo {
+    margin-top: 20%;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color:rgba(0,0,0,.50) ;
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
 }
